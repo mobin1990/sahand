@@ -1,0 +1,10 @@
+این یک پروژه خام هست که 
+1) تیلویند در ان نصب شده
+2) کتابخانه daisy ui که براساس تیلویند هست و کامپوننت های اماده تیلویندی دارد در ان نصب شده است
+
+
+tailwind
+https://tailwindcss.com/docs/installation/using-vite
+
+daisyui
+https://daisyui.com/components/
