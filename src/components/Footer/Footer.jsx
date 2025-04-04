@@ -16,12 +16,14 @@ import { FaYoutube } from "react-icons/fa";
 function Footer() {
   return (
     <>
-      <div className="grid grid-cols-3 mt-46 p-1  gap-2">
+      <div className="grid grid-cols-3 mt-35 p-1  gap-2 w-[1088px] mx-auto">
         <div className=" footerLink">
-          <h2 className="font-vazir font-bold text-[18px] text-first">لینک های مرتبط</h2>
-          <ul >
-            <li >
-              <a >لینک مفید</a>
+          <h2 className="font-vazir font-bold text-[18px] text-first">
+            لینک های مرتبط
+          </h2>
+          <ul>
+            <li>
+              <a>لینک مفید</a>
             </li>
             <li>
               <a>لینک مفید</a>
