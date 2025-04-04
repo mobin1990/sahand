@@ -39,7 +39,25 @@ body {
     background-color:#F3F4F6;
 }
 
+/* @layer components{
+  .grouping{
+    background-color:red;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-2xl);
+    overflow: hidden;
+    
+  }
+  .grouping > div{
+    padding: 0 8px;
+    align-items: center;
+    background-color:yellow;
+    
+  }
+  .grouping > div > h1{
+    background-color: green;
+  }
 
+} */
 
 /* button {
   border-radius: 8px;

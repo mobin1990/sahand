@@ -9,16 +9,18 @@
   /* text-align: center; */
 }
 
-
 /* todo تگ li در بخش header */
 .liHeader li {
   padding: 5px 10px;
 }
 
-.footerLink ul li{
+.footerLink ul li {
   text-decoration: none;
-  /* color: var(--color-first) */
+  
   margin-bottom: 5px;
+}
+.footerLink ul li a{
+  color: var(--color-third);
 }
 .socialLink {
   display: flex;
@@ -34,16 +36,15 @@
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-
 }
 /* استایل دکمه ها */
-.buttonStyle{
- border:1px solid var(--color-first);
- padding:4px 20px;
- border-radius: 24px;
- font-family: 'dirooz';
- color: var(--color-first);
- font-size: 16px;
+.buttonStyle {
+  border: 1px solid var(--color-first);
+  padding: 4px 20px;
+  border-radius: 24px;
+  font-family: "dirooz";
+  color: var(--color-first);
+  font-size: 16px;
 }
 
 /* .logo {
@@ -86,15 +87,13 @@
 @theme {
   --color-first: #0b2180;
   --color-secound: #f5de7f;
-
-  
-} 
+  --color-third: #57639b;
+}
 
 /* todo تعریف فونت و تخصیص اسم دلخواه به آن */
-@theme{
-
-  --font-dirooz: "Dirooz" ;
-  --font-sans: "IRANSansDN" ;
-  --font-vazir: "Vazir" ;
-  --font-yekan: "B Yekan+" ;
+@theme {
+  --font-dirooz: "Dirooz";
+  --font-sans: "IRANSansDN";
+  --font-vazir: "Vazir";
+  --font-yekan: "B Yekan+";
 }

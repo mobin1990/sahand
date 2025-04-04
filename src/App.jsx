@@ -10,7 +10,7 @@ import StatAcademy from "./components/StatisricsWebsite/statAcademy";
 function App() {
   return (
     <>
-      {/* <GridLayout /> */}
+      <GridLayout />
       {/* <Carousal/> */}
       <HomePage/>
       {/* <StatAcademy/> */}

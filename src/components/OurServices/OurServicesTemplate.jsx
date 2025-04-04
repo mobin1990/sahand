@@ -33,8 +33,8 @@ export default function OurServicesTemplate({ title, desc, image }) {
           />
         </figure>
         <div className="card-body p-4 overflow-hidden ">
-          <h2 className="card-title w-full h-7">{title}</h2>
-          <p className=" h-40 bg-gray-100 rounded-xl">{desc}</p>
+          <h2 className="card-title w-full h-7 text-first ">{title}</h2>
+          <p className=" h-40 bg-gray-100 rounded-xl text-third">{desc}</p>
           {/* <div className="card-actions justify-end">
       <button className="btn btn-primary btn-block">Watch</button>
     </div> */}

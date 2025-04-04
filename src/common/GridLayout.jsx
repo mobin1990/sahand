@@ -3,7 +3,7 @@ import React from 'react'
 function GridLayout() {
   return (
     <>
-          <div style={{direction:"rtl" }} className="grid grid-cols-12 gap-x-4 z-10 text-center  absolute top-0 h-[1000px] opacity-20  mx-auto ">
+          <div style={{direction:"rtl" }} className="grid grid-cols-12 gap-x-4 z-10 text-center  absolute top-0 h-100 opacity-20  mx-auto ">
         {/* <div className=" bg-[#00FFFF] w-[76px] ">1</div> */}
         <div className="content-center bg-[#51E5E5] w-[76px] ">1</div>
         <div className="content-center text-black bg-[#51E5E5] w-[76px] h-full ">2</div>

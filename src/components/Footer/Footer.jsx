@@ -17,11 +17,11 @@ function Footer() {
   return (
     <>
       <div className="grid grid-cols-3 mt-46 p-1  gap-2">
-        <div className=" text-first footerLink">
-          <h2 className="font-vazir font-bold text-[18px]">لینک های مرتبط</h2>
-          <ul>
-            <li>
-              <a>لینک مفید</a>
+        <div className=" footerLink">
+          <h2 className="font-vazir font-bold text-[18px] text-first">لینک های مرتبط</h2>
+          <ul >
+            <li >
+              <a >لینک مفید</a>
             </li>
             <li>
               <a>لینک مفید</a>
@@ -59,7 +59,7 @@ function Footer() {
         </div>
         <div className=" bg-white p-1 rounded-2xl text-first  ml-2 font-vazir font-bold text-[14px]">
           <h2 className="text-[17px] mt-5 px-3">به ما بپیوندید</h2>
-          <div className="px-3 py-2 bg-white ">
+          <div className="px-3 py-2 bg-white text-third">
             در دوره آموزش پیشرفته وردپرس قصد داریم نیروهای حرفه‌ای وردپرس کاری
             آماده کنیم که بتوانند هر سایت وردپرسی با هر چالشی را طراحی کنند.
           </div>
@@ -68,9 +68,9 @@ function Footer() {
           </button>
         </div>
       </div>
-      <div className="4 bg-white flex font-dirooz items-center mt-4 ">
+      <div className="bg-white px-2 rounded-xl shadow-xl flex font-dirooz items-center mt-4 text-third ">
         خوشحال میشیم اگه در شبکه های اجتماعی هم با ما باشید:
-        <ul className="4 bg-white flex items-center mx-2 ">
+        <ul className="bg-white flex items-center mx-2 ">
           <li>
             <a href="#" className="socialLink">
               <FaInstagram />

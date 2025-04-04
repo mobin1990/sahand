@@ -16,10 +16,10 @@ export default function NewsTemplate({ title, desc, image }) {
           />
         </figure>
         <div className="card-body p-4 w-[276px] h-[100px]">
-          <h2 className="card-title max-h-9 overflow-hidden font-vazir text-xl bg-red-200 py-1">
+          <h2 className="card-title text-first max-h-9 overflow-hidden font-vazir text-xl bg-red-200 py-1">
             {title}
           </h2>
-          <p className="h-22.5 overflow-hidden font-yekan bg-red-200">
+          <p className="h-22.5 text-first overflow-hidden font-yekan bg-red-200">
             {desc}
           </p>
 
