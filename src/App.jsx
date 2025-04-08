@@ -2,6 +2,7 @@ import "./App.css";
 import GridLayout from "./common/GridLayout";
 import NavBar from "./common/NavBar";
 import Carousal from "./components/Carousal";
+import Courses_Info from "./components/Courses/Courses_Info";
 import Footer from "./components/Footer/Footer";
 import GroupingCourses from "./components/Grouping/GroupingCourses";
 import Header from "./components/Header/Header";
@@ -23,8 +24,8 @@ function App() {
       {/* <OurServices /> */}
     {/* <GroupingCourses/> */}
 
-
-    <Suggestion/>
+<Courses_Info/>
+    {/* <Suggestion/> */}
     
    
     </>
