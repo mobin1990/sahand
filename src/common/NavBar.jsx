@@ -32,11 +32,11 @@ function NavBar() {
             <MdDarkMode className="w-[100%] h-auto text-white " />
           </div>
 
-            <div className="dropdown z-20 absolute  w-30 h-100 "  onClick={() => {setShowBgBlur(!showBgBlur)}}>
+            <div className="dropdown z-20 absolute "  onClick={() => {setShowBgBlur(!showBgBlur)}}>
               <div tabIndex={0} role="button" className="darkMode w-7 h-7 ml-2 bg-first rounded-full p-[3px] relative z-40">
                 <HiUser className="w-[100%] h-auto text-white " />
             </div >
-              <ul tabIndex={0} className="dropdown-content menu font-dirooz text-[16px] bg-white relative left-29 top-6.5  rounded-box rounded-tl-[4px] z-1 min-w-70 p-2 shadow-sm">
+              <ul tabIndex={0} className="dropdown-content menu font-dirooz text-[16px] bg-white relative left-8.5 top-6  rounded-box rounded-tl-[4px] z-1 min-w-70 p-2 shadow-sm">
                 <li className=" my-1">
                   <div className="avatar flex flex-row flex-nowrap ">
                     <div className="ring-primary ring-offset-base-100 w-15 rounded-full ring ring-offset-2">

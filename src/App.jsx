@@ -3,7 +3,7 @@ import GridLayout from "./common/GridLayout";
 import NavBar from "./common/NavBar";
 import Carousal from "./components/Carousal";
 import Courses_Info from "./components/Courses/Courses_Info";
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 import GroupingCourses from "./components/Grouping/GroupingCourses";
 import Header from "./components/Header/Header";
 import HomePage from "./components/HomePage";
@@ -15,8 +15,10 @@ import Suggestion from "./components/Suggestion/Suggestion";
 function App() {
   return (
     <>
-      
-      <GridLayout />
+      {/* <div className="w-[1088px] mx-auto"> */}
+
+     
+      {/* <GridLayout /> */}
       {/* <Carousal/> */}
       {/* <HomePage/> */}
       {/* <StatAcademy/> */}
@@ -27,7 +29,7 @@ function App() {
 <Courses_Info/>
     {/* <Suggestion/> */}
     
-   
+    {/* </div> */}
     </>
   );
 }
