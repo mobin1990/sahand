@@ -70,8 +70,6 @@ function Courses_Info() {
        <div className=" flex justify-between mt-10">
         <div className=" w-[63%] py-4 ">
 
-
-
  {/* //! توضیحات دوره */}
 
           <div className="shadow-2xl bg-white py-5 rounded-lg ">

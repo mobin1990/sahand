@@ -49,6 +49,16 @@
   display: flex;
   align-items: center;
 }
+.buttonDetail {
+  background-color: #BECEF3;
+  border: 1px solid var(--color-first);
+  font-family: var(--font-vazir);
+  font-size: 14px;
+  padding: 3px 15px;
+  border-radius: 10px;
+  color: var(--color-first);
+
+}
 .takhfif{
   font-family: var(--font-dirooz);
   font-size: 13px;

@@ -65,7 +65,7 @@ function Footer() {
             در دوره آموزش پیشرفته وردپرس قصد داریم نیروهای حرفه‌ای وردپرس کاری
             آماده کنیم که بتوانند هر سایت وردپرسی با هر چالشی را طراحی کنند.
           </div>
-          <button className="py-1 px-4 my-3 text-secound bg-first rounded-[10px]">
+          <button className="py-1 px-4 my-3 mr-3 text-secound bg-first rounded-[10px]">
             ارسال رزومه
           </button>
         </div>
