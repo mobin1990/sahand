@@ -16,7 +16,7 @@ function News_Detail() {
     <>
     <NavBar/>
       <div className=" flex justify-between mt-4 w-[1088px] mx-auto">
-          {/* //! توضیحات حبر */}
+          {/* //! توضیحات خبر */}
         <div className=" w-[63%] py-4 ">
 
           <div className="shadow-2xl bg-white py-5 rounded-lg ">

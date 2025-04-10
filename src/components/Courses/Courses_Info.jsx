@@ -51,12 +51,12 @@ function Courses_Info() {
 
           {/* //! عکس دوره */}
           <div className="w-65/100 h-7/10 overflow-hidden relative  my-auto  -ml-8 rounded-2xl ">
-            {/* //! این دایو رو برای این پذاشتم که اگه سایز عکس از سایز باکس کوچسکتر باشه اونوقت عکس رو به عنوان بکگراند قرار میده تا فضای خالی رو بپوشونه */}
+            {/* //! این دایو رو برای این پذاشتم که اگه سایز عکس از سایز باکس کوچیکتر باشه اونوقت عکس رو به عنوان بکگراند قرار میده تا فضای خالی رو بپوشونه */}
             <div
               className=" absolute z-1 top-0 left-0 right-0 bottom-0 object-center blur-sm scale-110 bg-blue-800"
               style={{ backgroundImage: `url(${imgBgCourse})` }}
             ></div>
-            {/* //! این دایو بین بکگراند و عکس ما که سورس هردوشون یکی هستش باعث تداخل رنگ نشه */}
+            {/* //! این دایو بین بکگراند و عکس ما قرار میگیره که سورس هردوشون یکی هستش باعث تداخل رنگ نشه */}
             <div className=" absolute z-1 top-0 left-0 right-0 bottom-0 object-center blur-sm scale-110 bg-gray-600/30 "></div>
             <img
               className="w-[100%] h-[100%]  object-contain m-auto absolute z-2  shadow-amber-500 block "

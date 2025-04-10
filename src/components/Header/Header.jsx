@@ -4,6 +4,7 @@ import logo from "../../assets/img/ac-Logo.png";
 import headerImg from "../../assets/img/header-img.png";
 import { BsSearchHeart } from "react-icons/bs";
 import NavBar from "../../common/NavBar";
+import Search_Input from "../../common/Search_Input";
 function Header() {
   return (
     <>
@@ -17,16 +18,10 @@ function Header() {
             دنبال چی میگردی؟
           </p>
           <span className="font-dirooz">دیگه وقتشه یه تکونی به خودت بدی</span>
-          <div className="flex h-11 mt-2">
-            <input
-              type="text"
-              className="border p-2 rounded-2xl w-[75%] text-[16px]"
-              placeholder="دنبال چی میگردی؟؟؟"
-            />
-            <div className="w-[44px] rounded-full h-full bg-first  content-center justify-center mr-1  ">
-              <BsSearchHeart className="text-secound text-[26px] m-auto " />
-            </div>
+          <div className="flex h-11 mt-2">     
+            <Search_Input Type={"text"} PlaceHolder={"دنبال چی میگردی؟؟؟"}/>
           </div>
+
           <h1 className="text-first mt-2 font-sans font-bold text-[30px]">
             اکادمی سپهر
           </h1>

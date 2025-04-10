@@ -4,7 +4,7 @@ import { IoTime } from "react-icons/io5";
 import { GoDotFill } from "react-icons/go";
 function CourseTemplate({title,desc,teacher,time,cost}) {
   return (
-    <div className='relative rounded-xl p-2 z-2'>
+    <div className='relative rounded-xl p-2 z-2 shadow-2xl'>
         <div className='mx-auto overflow-hidden w-[95%] object-center rounded-2xl bg-red-800'>
           <img src={cartImage}  alt="cart-img" />
         </div>
