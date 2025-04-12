@@ -46,10 +46,10 @@ function Courses_List() {
     <>
       <div className="w-[1088px] mx-auto">
         <p className="font-dirooz text-first text-xl"> دوره ها </p>
-        <div className="flex h-11 mt-2 bg-red-400 w-6/10">
+        <div className="flex h-11 mt-2 w-6/10">
           <Search_Input Type={"text"} placeHolder={"جستجوی دوره ..."} />
         </div>
-        <div className="grid grid-cols-10 gap-4">
+        <div className="grid grid-cols-11 gap-4 my-10">
           {/* //! باکس سمت راست مربوط به بخش فیلتر دوره */}
           <div className=" col-span-3">
             <div className="shadow-2xl bg-white text-first px-3 py-6 rounded-2xl " style={{direction:"ltr"}}> 
@@ -61,30 +61,30 @@ function Courses_List() {
                 <span> تکمیل شده  </span>
               </div>
               <div className={` ${styles.courses_filter_style} `}  > 
-                <select defaultValue="Pick a sort" className="select border-0 shadow-none select-info w-6/10">
+                <select defaultValue="Pick a sort" className="select border-0 shadow-none select-info w-65/100 ">
                   <option disabled={true}>مرتب سازی براساس</option>
                   <option>همه</option>
                   <option>پربازدیدترین ها</option>
                   <option>جدیدترین ها</option>
                   <option>محبوبترین ها</option>
                 </select>
-              <span>  مرتب سازی براساس </span>
+              <span className="w-3/10">  مرتب سازی براساس </span>
               </div>
               <div className={` ${styles.courses_filter_style} `}  > 
-                <select defaultValue="Pick a course" className="select border-0 shadow-none select-info">
+                <select defaultValue="Pick a course" className=" w-65/100 select border-0 shadow-none select-info">
                   <option disabled={true}>دوره مدنظر شما</option>
                   <option>همه</option>
                   <option>React</option>
                   <option>Vue</option>
                   <option>Angular</option>
                 </select>
-              <span> انتخاب دوره </span>
+              <span className="w-[30%]"> انتخاب دوره </span>
               </div>
 
               <div className={` ${styles.courses_filter_style} `}  > 
                 
                 <div className="">
-                  <select defaultValue="Pick a date" className="select border-0 shadow-none select-info " >
+                  <select defaultValue="Pick a date" className=" w-92/100 select border-0 shadow-none select-info " >
                     <option disabled={true}> بازه تاریخی مدنظر شما </option>
                     <option>همه</option>
                     <option>هفته اخیر</option>
@@ -96,13 +96,13 @@ function Courses_List() {
                 <span> بازه تاریخی</span>
               </div>
               <div className={` ${styles.courses_filter_style} `}  > 
-                <form className="filter">
+                <form className="filter ">
                   <input className="btn btn-square " type="reset" value="×"/>
-                  <input className="btn" style={{outlineOffset:0, outline:0}} type="radio" name="frameworks" aria-label="همه "/>
-                  <input className="btn" style={{outlineOffset:0, outline:0}} type="radio" name="frameworks" aria-label="پولی"/>
-                  <input className="btn" style={{outlineOffset:0, outline:0}} type="radio" name="frameworks" aria-label="رایگان"/>
+                  <input className="btn font-dirooz text-[14px]" style={{outlineOffset:0, outline:0}} type="radio" name="frameworks" aria-label="همه "/>
+                  <input className="btn font-dirooz text-[14px]" style={{outlineOffset:0, outline:0}} type="radio" name="frameworks" aria-label="پولی"/>
+                  <input className="btn font-dirooz text-[14px]" style={{outlineOffset:0, outline:0}} type="radio" name="frameworks" aria-label="رایگان"/>
                 </form>
-                <span> هزینه  </span>
+                <span style={{width:"18%"}}> هزینه  </span>
               </div>
               <div className={` ${styles.courses_filter_style} `} style={{flexDirection:"column"}} > 
                 <span style={{ marginLeft:"auto"}}> بازه قیمتی دوره ها </span>
@@ -116,7 +116,7 @@ function Courses_List() {
 
 
           {/* //! باکس سمت چپ مربوط به بخش لیست دوره */}
-          <div  className="bg-white col-span-7 rounded-2xl py-5 px-1">
+          <div  className="bg-white col-span-8 rounded-2xl py-5 px-1">
              {/* //todo نمایش جدیدترین دوره ها */}
               <div className=" grid grid-cols-3 gap-4 mx-3 mb-7 ">
                 {courseInfo.map((item) => {

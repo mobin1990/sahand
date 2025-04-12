@@ -14,10 +14,11 @@
     margin: 8px 0;
 }
 .courses_filter_style span{
-    font-size: 15px;
-    min-width: 30%;
+    font-size: 14px;
+    /* width: 45%; */
     /* background-color: red; */
     text-align: right;
+
 }
 .courses_filter_style select{
     font-family: vazir;
