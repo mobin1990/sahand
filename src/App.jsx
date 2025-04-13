@@ -9,6 +9,7 @@ import GroupingCourses from "./components/Grouping/GroupingCourses";
 import Header from "./components/Header/Header";
 import HomePage from "./components/HomePage";
 import News_Detail from "./components/News/News_Detail";
+import News_Item_View from "./components/News/News_Item_View";
 import News_List from "./components/News/News_List";
 import NewsTemplate from "./components/News/NewsTemplate";
 import OurServices from "./components/OurServices/OurServices";
@@ -34,7 +35,8 @@ function App() {
     {/* <NewsTemplate/> */}
     {/* <News_Detail/> */}
     {/* <Courses_List/> */}
-    <News_List/>
+    {/* <News_List/> */}
+    <News_Item_View/>
     
     </>
   );

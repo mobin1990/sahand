@@ -5,7 +5,7 @@ import NewsTemplate from "./NewsTemplate";
 import { style } from "framer-motion/client";
 
 function News_List() {
-  const courseInfo = [
+  const NewsInfo = [
     {
       id: 1,
       title: " اموزش پیشرفته وردپرس  ",
@@ -62,7 +62,7 @@ function News_List() {
       <div className="bg-white w-[1088px] rounded-2xl py-5 px-1">
         {/* //todo نمایش جدیدترین دوره ها */}
         <div className=" grid grid-cols-4 gap-4 mx-3 mb-7 ">
-          {courseInfo.map((item,index) => {
+          {NewsInfo.map((item,index) => {
             return (
              
               <NewsTemplate

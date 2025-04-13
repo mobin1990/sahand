@@ -14,7 +14,7 @@ export default function NewsTemplate({title,desc,image,reverse,inSpecial,}) {
         } `}
       >
         <figure
-          className={` ${reverse ? "order-1 mt-1" : "order-3"} 
+          className={`${reverse ? "order-1 mt-1" : "order-3"} 
           ${
             inSpecial
               ? "h-90 absolute top-0 left-0 right-0 bottom-0 px-0 "
@@ -53,7 +53,7 @@ export default function NewsTemplate({title,desc,image,reverse,inSpecial,}) {
         {!inSpecial && (
           <>
             <h2
-              className={`card-title text-[14px] mx-1 py-1 px-4 text-first max-h-9 overflow-hidden font-vazir 
+              className={`  card-title text-[14px] mx-1 py-1 px-4 text-first max-h-9 overflow-hidden font-vazir 
                  ${reverse ? "order-2" : "order-1"}`}
             >
               {title}
