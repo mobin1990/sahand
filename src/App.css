@@ -16,10 +16,10 @@
 
 .footerLink ul li {
   text-decoration: none;
-  
+
   margin-bottom: 5px;
 }
-.footerLink ul li a{
+.footerLink ul li a {
   color: var(--color-third);
 }
 .socialLink {
@@ -44,36 +44,34 @@
   border-radius: 24px;
   font-family: "dirooz";
   /* color: var(--color-first); */
-  color:white;
+  color: white;
   font-size: 16px;
   display: flex;
   align-items: center;
 }
 .buttonDetail {
-  background-color: #BECEF3;
+  background-color: #becef3;
   border: 1px solid var(--color-first);
   font-family: var(--font-vazir);
   font-size: 14px;
   padding: 3px 15px;
   border-radius: 10px;
   color: var(--color-first);
-
 }
-.takhfif{
+.takhfif {
   font-family: var(--font-dirooz);
   font-size: 13px;
   text-decoration: line-through;
-  color:#ACACAC
-
+  color: #acacac;
 }
-.gheymat{
+.gheymat {
   font-family: var(--font-dirooz);
   font-size: 18px;
   /* color:var(--color-first) */
-  color:white
+  color: white;
 }
 
-.orderBox figure:first-child{
+.orderBox figure:first-child {
   order: 3;
 }
 /* .logo {
@@ -117,6 +115,8 @@
   --color-first: #0b2180;
   --color-secound: #f5de7f;
   --color-third: #57639b;
+  --color-dashboardBgFirst: #e0d8ab;
+  --color-dashboardBgSecound: #cbbd6a;
 }
 
 /* todo تعریف فونت و تخصیص اسم دلخواه به آن */

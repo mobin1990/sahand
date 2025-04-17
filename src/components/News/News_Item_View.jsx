@@ -1,6 +1,8 @@
 import React from "react";
 import imgNews from "../../assets/img/Banner.png";
 import ax1 from "../../assets/img/cartImage.png";
+import { Input , Tooltip} from "@material-tailwind/react";
+
 
 function News_Item_View() {
   const NewsInfo = [
@@ -38,6 +40,7 @@ function News_Item_View() {
     <>
       <div className="w-[1088px] mx-auto mt-20 rounded-2xl ">
          {/* //! بخش مربوط به مشاهده متن کامل خبری که کابر از لیست اخبار کلیک کرده */}
+      
         <div className=" mx-auto w-[100%] pr-4 text-justify leading-6 text-[16px] ">
           <div className="font-vazir text-[16px] leading-7 text-justify  pt-1 pb-3 mt-4  ">
             <div className="float-right ml-4 -mb-5 relative -translate-y-2 w-90 h-75  ">

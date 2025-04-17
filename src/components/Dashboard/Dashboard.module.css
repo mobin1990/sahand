@@ -1,0 +1,52 @@
+.inputBox {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.inputBoxFloat {
+  padding: 4px 16px;
+  position: absolute;
+  top: -12px;
+  right: 20px;
+  z-index: 1;
+  font-family: var(--font-dirooz);
+  font-size: 12px;
+  /* background-color: var(--color-dashboardBgFirst); */
+  background-color: #EBE1AF;
+  color: black;
+  border-radius: var(--radius-lg);
+  /* text-align: right; */
+}
+
+
+.inputBoxInput {
+  border: none;
+  padding: 0 24px;
+  /* border-radius: var(--radius-2XL); */
+  box-shadow: var(--shadow-xl);
+  text-align: left;
+}
+.inputBoxInput:focus {
+  outline: none;
+}
+
+.userCourses {
+  display: flex;
+  background-color: var(--color-dashboardBgFirst);
+  color: var(--color-first);
+  padding: 8px;
+  font-size: 14px;
+  font-family: var(--font-dirooz);
+  margin:0 4px ;
+  border-radius: var(--radius-xl);
+}
+.userCoursesCount {
+  background-color: var(--color-dashboardBgFirst);
+  color: var(--color-first);
+  padding: 16px;
+  font-size: 14px;
+  font-family: var(--font-dirooz);
+  margin: 0 4px;
+  border-radius: var(--radius-xl);
+}
