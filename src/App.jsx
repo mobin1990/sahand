@@ -1,12 +1,16 @@
 import "./App.css";
+import ForgetPass from "./common/ForgetPass";
 import GridLayout from "./common/GridLayout";
+import Login from "./common/Login";
 import NavBar from "./common/NavBar";
+import SignUp from "./common/SignUp";
 import Carousal from "./components/Carousal";
 import Courses_Info from "./components/Courses/Courses_Info";
 import Courses_List from "./components/Courses/Courses_List";
 import Dashboard_Courses_List from "./components/Dashboard/Dashboard_Courses_List";
 import Dashboard_Home from "./components/Dashboard/Dashboard_Home";
 import Dashboard_MyCourse from "./components/Dashboard/Dashboard_MyCourse";
+import Footer from "./components/Footer/Footer";
 // import Footer from "./components/Footer/Footer";
 import GroupingCourses from "./components/Grouping/GroupingCourses";
 import Header from "./components/Header/Header";
@@ -42,7 +46,11 @@ function App() {
     {/* <News_Item_View/> */}
     {/* <Dashboard_Home/> */}
     {/* <Dashboard_Courses_List/> */}
-    <Dashboard_MyCourse/>
+    {/* <Dashboard_MyCourse/> */}
+    {/* <Login/> */}
+    {/* <SignUp/> */}
+    {/* <ForgetPass/> */}
+    <Footer/>
     
     </>
   );

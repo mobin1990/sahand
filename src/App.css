@@ -1,6 +1,14 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-mobile: 40rem; /* //! mobile Size 640px*/
+  --breakpoint-tablet: 48rem; /* //! tablet Size 768px*/
+  --breakpoint-laptop: 64rem;/* //! laptop Size 1024px */
+  --breakpoint-desktop: 80rem;/* //! mobile Size 1280px */
+}
 #root {
   /* max-width: 1280px; */
   margin: 0 auto;
@@ -24,10 +32,14 @@
 }
 .socialLink {
   display: flex;
-  font-size: px;
-  /* width:50px; */
-  /* height: 50px; */
-  padding: 6px;
+  margin-left: 2px;
+  align-items: center;
+  font-size: var(--text-2xl);
+   
+}
+.socialLink li a{
+  display: flex;
+  padding: 10px;
   margin: 5px;
   /* height: 40px; */
   /* background-color: red; */
@@ -37,6 +49,7 @@
   align-items: center;
   justify-content: center;
 }
+
 /* استایل دکمه ها */
 .buttonStyle {
   border: 1px solid var(--color-first);

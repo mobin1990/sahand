@@ -39,6 +39,66 @@ body {
     background-color:#F3F4F6;
 }
 
+ /* برای input هایی که با antDesign  استفاده میشه این استایل سراسری رو میدیم که تغییرشوون یکپارچه بشه */
+Form{
+  /* background-color: green !important; */
+  direction: rtl !important;
+  padding: 16px 2px !important;
+  margin-top: 10px !important;
+
+ 
+}
+/* .ant-form-item{
+  background-color: red !important;
+  align-content: center !important;
+  text-align: right !important;
+  display: grid;
+  direction: rtl;
+  grid-column: 2;
+  position: relative;
+ 
+  
+} */
+
+.ant-form-item-label{
+  /* background-color: rgb(102, 102, 207); */
+  padding: 3px 2px ;
+  justify-content: flex-end !important; /* چسباندن لیبل به راست */
+  text-align: right !important;   /* چسباندن لیبل به راست  */
+  direction: rtl !important;
+  height: 40px !important;  /* برای اینکه ارتفاع لیبل کش نیاد  */
+}
+
+.ant-form-item-label label{
+  font-family: var(--font-sans) !important;
+  font-weight: bold;
+  font-size: 12px !important;
+
+
+}
+.ant-form-item input{
+  font-family: var(--font-sans) !important;
+  font-size: 16px !important;
+  font-weight: bold;
+  padding: 8px 16px !important;
+  /* background-color: red !important; */
+ 
+ 
+
+}
+Input::placeholder {
+  font-family: var(--font-sans) !important;
+  font-size: 12px !important;
+  padding: 10px 8px !important;
+}
+
+.ant-btn{
+  font-family: var(--font-sans) !important;
+  font-size: 17px !important;
+  padding:18px 30px !important;
+  /* font-weight: bold; */
+
+}
 /* @layer components{
   .grouping{
     background-color:red;

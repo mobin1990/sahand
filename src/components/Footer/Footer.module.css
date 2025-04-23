@@ -1,0 +1,20 @@
+
+
+.listTitr{
+    display: flex ;
+    margin-bottom: 10px;
+    /* flex-direction: column; */
+
+}
+
+.listTitr li a{
+    padding: 10px 6px 10px 26px;
+    /* background-color: blueviolet; */
+    margin: 5px 18px 5px 0px;
+    
+}
+.listTitr li span{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
